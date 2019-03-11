@@ -1,0 +1,17 @@
+
+#textlead {
+  width: 550px;
+  height: 300px;
+  border: 1px #000000 solid;
+  padding: 8px;
+  overflow: scroll;
+  background-color : white;
+  position:relative;
+}
+body {
+	background-color : lightgray;
+}
+
+#inputlength {
+color : blue;
+}

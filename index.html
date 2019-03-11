@@ -1,0 +1,24 @@
+<HTML>
+<head>
+<title>Memo_Pad</title>
+
+<link rel="stylesheet" type="text/css" href="./Memo_pad.css" />
+
+</head>
+<BODY>
+
+<p><b>メモ帳</b></p>
+<div><input type="file" id = "fileload"></div>
+<div>
+	<textarea id="textlead" onkeyup="ShowLength(value);"></textarea>
+</div>
+
+<p id="inputlength">文字数がカウントされます</p>
+<button id="c&pbtn">テキスト複製</button>
+<button id="dltbtn">クリア</button>
+<button onclick="dlbutton();" >保存する</button>
+
+<script type="text/javascript" src="./Memo_pad.js"></script>
+
+</BODY>
+</HTML>
