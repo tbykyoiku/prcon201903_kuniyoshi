@@ -1,11 +1,11 @@
-
+ï»¿
 
 var text1   = document.getElementById('textlead');
 var text2   = document.getElementById('fileload');
 var cpbtn   = document.getElementById('c&pbtn');
 var dlt     = document.getElementById('dltbtn');
 
-text1.value = "ƒƒ‚‚ğ‹L“ü‚µ‚Ä‚­‚¾‚³‚¢!!"
+text1.value = "ãƒ¡ãƒ¢ã‚’è¨˜å…¥ã—ã¦ãã ã•ã„!!"
 
 text2.addEventListener('change',function(evt){
    var file = evt.target.files;
@@ -19,7 +19,7 @@ text2.addEventListener('change',function(evt){
 
 
 function ShowLength( str ) {
-   document.getElementById("inputlength").innerHTML = "“ü—Í”:" + str.length;
+   document.getElementById("inputlength").innerHTML = "å…¥åŠ›æ•°:" + str.length;
 };
 
 cpbtn.addEventListener('click', function(){
